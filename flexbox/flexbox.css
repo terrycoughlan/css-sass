@@ -18,7 +18,7 @@
 .box-3 {background: #f0a30a; }
 .box-4 {background: #e3c800; font-size: 80px}
 .box-5 {background: #a4c400; font-size: 50px}
-.box-6 {background: #60a917;}
+.box-6 {background: #60a917; align-self: flex-end;}
 .box-7 {background: #00aba9;}
 .box-8 {background: #1ba1e2; font-size: 125px}
 .box-9 {background: #aa00ff;}
@@ -55,4 +55,14 @@
     /*align-content: center;*/
     /*align-content: space-between;*/
     /*align-content: space-around;*/
+
+    /*align-self: flex-end;*/
+
+    /*order !* has default of 0 *!*/
+
+    /*flex-basis: allows you to define width and height*/
+
+    /*flex-grow: 0 is the default and unused space is spread amongst flew items as a ratio*/
+
+    /*flew-shrink: 1 is the default and if there is not enough space it will shrink the flex items*/
 }
